@@ -8,7 +8,7 @@ then
 fi
 
 echo "proceeding..."
-dnf install nginxxxx -y
+dnf install nginx -y
 
 if [ $? -ne 0 ]
 then
@@ -18,7 +18,7 @@ else
   echo "nginx installation success"
 fi
 
-dnf install mysqlll -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]
 then
