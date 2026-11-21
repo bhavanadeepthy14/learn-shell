@@ -12,7 +12,7 @@ usage(){
 }
 
 if [-z "$source_dir"]; then
-   echo "ERROR:: Missing Parameters
+   echo "ERROR:: Missing Parameters"
    usage
 fi
 
