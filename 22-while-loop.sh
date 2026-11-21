@@ -1,5 +1,7 @@
 #!/bin/bash
 
-echo "Ramesh:: Hi, Suresh. How are you?"
-echo "Suresh:: Hello Ramesh. Iam good. How about you?"
-echo "Ramesh:: Iam good too Suresh. Thanks for asking"
+while IFS= read -r line
+do
+    echo $line
+done < 02-conversation.sh
+
